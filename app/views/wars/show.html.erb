@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Enemy:</strong>
+  <%= @war.enemy %>
+</p>
+
+<p>
+  <strong>Our stars:</strong>
+  <%= @war.our_stars %>
+</p>
+
+<p>
+  <strong>Enemy stars:</strong>
+  <%= @war.enemy_stars %>
+</p>
+
+<p>
+  <strong>Our descruction:</strong>
+  <%= @war.our_descruction %>
+</p>
+
+<p>
+  <strong>Enemy descruction:</strong>
+  <%= @war.enemy_descruction %>
+</p>
+
+<p>
+  <strong>End result:</strong>
+  <%= @war.end_result %>
+</p>
+
+<%= link_to 'Edit', edit_war_path(@war) %> |
+<%= link_to 'Back', wars_path %>

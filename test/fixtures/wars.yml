@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  enemy: MyString
+  our_stars: 1
+  enemy_stars: 1
+  our_descruction: 1
+  enemy_descruction: 1
+  end_result: false
+
+two:
+  enemy: MyString
+  our_stars: 1
+  enemy_stars: 1
+  our_descruction: 1
+  enemy_descruction: 1
+  end_result: false
